@@ -1,13 +1,14 @@
 import Head from "next/head";
+import Feed from "../components/Feed";
 import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Twitter Cloe</title>
+        <title>Home | Twitter Clone</title>
         <meta name="description" content="We are" />
-        <link rel="icon" href="/favico.ico" />
+        <link rel="icon" href="/twitter-icon.png" />
       </Head>
 
       <main className="flex min-h-screen max-w-7xl mx-auto ">
@@ -15,7 +16,7 @@ export default function Home() {
         <Sidebar />
 
         {/* Feed */}
-
+          <Feed/>
         {/* Widget */}
 
         {/* Model */}
