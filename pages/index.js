@@ -3,6 +3,7 @@ import Feed from "../components/Feed";
 import Sidebar from "../components/Sidebar";
 
 export default function Home() {
+  console.log('From Home component') 
   return (
     <div>
       <Head>

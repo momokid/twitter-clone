@@ -4,6 +4,7 @@ import { DotsHorizontalIcon, HomeIcon} from "@heroicons/react/solid";
 import {BellIcon, BookmarkIcon, HashtagIcon, InboxIcon,ClipboardIcon, UserIcon, DotsCircleHorizontalIcon} from "@heroicons/react/outline";
 
 function Sidebar() {
+  console.log('From Sidebar Component')
   return (
     <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full">
       {/* Twitter logo */}
