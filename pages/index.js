@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 import Widgets from "../components/Widgets";
 
 export default function Home() {
-  console.log('From Home component') 
+  
   return (
     <div>
       <Head>
@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/twitter-icon.png" />
       </Head>
 
-      <main className="flex min-h-screen max-w-7xl mx-auto ">
+      <main className="flex min-h-screen  mx-auto ">
         {/* Sidebar */}
         <Sidebar />
 

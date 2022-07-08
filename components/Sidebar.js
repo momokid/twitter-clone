@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import SidebarMenuItem from "./SidebarMenuItem";
 import { DotsHorizontalIcon, HomeIcon} from "@heroicons/react/solid";
 import {BellIcon, BookmarkIcon, HashtagIcon, InboxIcon,ClipboardIcon, UserIcon, DotsCircleHorizontalIcon} from "@heroicons/react/outline";
@@ -6,7 +6,7 @@ import {BellIcon, BookmarkIcon, HashtagIcon, InboxIcon,ClipboardIcon, UserIcon, 
 function Sidebar() {
   console.log('From Sidebar Component')
   return (
-    <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full">
+    <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24">
       {/* Twitter logo */}
       <div className="hoverEffect p-0 hover:bg-blue-100 xl:px-1" >
         <Image
